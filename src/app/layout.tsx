@@ -9,6 +9,18 @@ export const metadata: Metadata = {
   title: "Cozy Properties Checklist",
   description: "Asset Checklist",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+
+  openGraph: {
+    title: "Cozy Properties Checklist",
+    description:
+      "Asset Checklist for Cozy Properties to make sure all assets are in order before moving in.",
+    images: [
+      {
+        url: "https://emarhin-cozy-properties-checklist.vercel.app/icon.png",
+        alt: "checklist interface picture",
+      },
+    ],
+  },
 };
 
 const geist = Geist({
