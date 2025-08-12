@@ -16,7 +16,7 @@ export const metadata: Metadata = {
       "Asset Checklist for Cozy Properties to make sure all assets are in order before moving in.",
     images: [
       {
-        url: "https://emarhin-cozy-properties-checklist.vercel.app/icon.png",
+        url: "https://emarhin-cozy-properties-checklist.vercel.app/appimage.png",
         alt: "checklist interface picture",
       },
     ],
