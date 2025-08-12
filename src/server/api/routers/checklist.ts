@@ -14,14 +14,6 @@ export const checklistRouter = createTRPCRouter({
       }),
     )
     .mutation(async ({ ctx, input }) => {
-      return ctx.db.check.update({
-        where: {
-          itemId: input.itemId,
-          roomId: input.roomId,
-        },
-        data: {
-          isPresent: !input.isPresent,
-        },
-      });
+      return;
     }),
 });
